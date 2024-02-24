@@ -1,0 +1,79 @@
+.user-profile-picture img{
+    width: 50%;
+}
+
+.user-profile-info-list{
+    width:25%;
+}
+
+@media (min-width:992px) and (max-width:1500px) {
+    .user-profile-info-list{
+        width:25%;
+    }
+}
+
+@media (min-width:576px) and (max-width:991px) {
+    .user-profile-info-list{
+        width:50%;
+    }
+}
+
+@media (min-width:0px) and (max-width:575px){
+    .user-profile-picture img{
+        width: 25%;
+    }
+    
+    .user-profile-info > *{
+        width: 100% !important;
+        font-size: 3vw;
+        margin-top: 10%;
+    }
+    .user-profile-info{
+        text-align: center;
+    }
+}
+
+.user .commentForm .add-comment-profile-icon{
+    width:20% !important;
+}
+
+.user .commentForm .add-comment-input{
+    width:75% !important;
+}
+
+@media (min-width:400px) and (max-width:575px){
+
+    .user .post-upvote{
+      width: 50% !important;
+    }
+    .user .post-comments{
+      width: 25% !important;
+    }
+
+    .user .commentForm .add-comment-profile-icon{
+        width:18% !important;
+    }
+    
+    .user .commentForm .add-comment-input{
+        width:80% !important;
+    }
+
+  }
+  
+  @media (min-width:0px) and (max-width:399px){
+
+    .user .post-upvote{
+      width: 70% !important;
+    }
+    .user .post-comments{
+      width: 25% !important;
+    }
+
+    .user .commentForm .add-comment-profile-icon{
+        width:18% !important;
+    }
+    
+    .user .commentForm .add-comment-input{
+        width:80% !important;
+    }
+  }
